@@ -1,9 +1,9 @@
 # Project dependencies
 # Core ML
 pandas
-scikit-learn==1.7.1
+#scikit-learn==1.7.1
 joblib
-sentence-transformers
+#sentence-transformers
 
 # API
 fastapi

@@ -73,10 +73,15 @@ npm run dev
 ```
 
 ### 5. Acceder a la Aplicación
-
+#### Local
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
 - **Documentación API**: http://localhost:8000/docs
+
+#### Produccción
+- **Frontend**: v0-ia-medical-classifier-fullstack.vercel.app
+- **Backend API**: https://clasificador-medico-api-zyod.onrender.com
+- **Documentación API**: https://clasificador-medico-api-zyod.onrender.com/docs
 
 ## Uso
 

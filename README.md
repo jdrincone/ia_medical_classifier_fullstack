@@ -20,15 +20,15 @@ ia_medical_classifier_fullstack/
 │   ├── core/               # Lógica de predicción y entrenamiento
 │   ├── scripts/            # Scripts de entrenamiento
 │   └── artifacts/          # Modelos entrenados
-└── frontend/               # Aplicación web Next.js
-    ├── app/                # Páginas y componentes
-    ├── components/         # Componentes UI reutilizables
-    └── types/              # Definiciones TypeScript
+               # Aplicación web Next.js
+├── app/                # Páginas y componentes
+├── components/         # Componentes UI reutilizables
+└── types/              # Definiciones TypeScript
 ```
 
 ## Requisitos Previos
 
-- **Python 3.8+**
+- **Python 3.11+**
 - **Node.js 18+**
 - **Git**
 
@@ -68,7 +68,7 @@ uvicorn api.main:app --reload --port 8000
 
 **Frontend (Terminal 2):**
 ```bash
-cd frontend
+cd ia_medical_classifier_fullstack
 npm run dev
 ```
 

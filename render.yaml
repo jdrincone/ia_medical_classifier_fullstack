@@ -1,0 +1,15 @@
+# render.yaml
+
+services:
+  # Define el servicio del backend de Python
+  - type: web
+    name: clasificador-medico-api
+    env: python
+    # ¡Importante! Especifica que el código está en la carpeta 'backend'
+    rootDir: backend
+    # Elige el plan gratuito de Render
+    plan: free
+    # Comando para instalar las dependencias con uv
+    buildCommand: "pip install -r requirements.txt"
+    # Comando para iniciar el servidor FastAPI
+    startCommand: "uvicorn api.main:app --host 0.0.0.0 --port $PORT"

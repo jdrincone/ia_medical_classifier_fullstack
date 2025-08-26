@@ -79,7 +79,7 @@ npm run dev
 - **Documentación API**: http://localhost:8000/docs
 
 #### Produccción
-- **Frontend**: v0-ia-medical-classifier-fullstack.vercel.app
+- **Frontend**: [v0-ia-medical-classifier-fullstack.vercel.app](https://v0-ia-medical-classifier-fullstack.vercel.app/)
 - **Backend API**: https://clasificador-medico-api-zyod.onrender.com
 - **Documentación API**: https://clasificador-medico-api-zyod.onrender.com/docs
 
